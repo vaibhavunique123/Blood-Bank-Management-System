@@ -10,9 +10,9 @@ session_start();
 </head>
 <body bgcolor="silver">
  <div class="menubar"style="background-image: url('image/bbms.jpg');">
-	<ul>
+     <ul>
 		<img src="image/bbms5.webp" style="width: 200px;height: 80px;margin-right:10px ;padding-right: 20px;">
-	     <li class="active" style="margin-right:1000px;"><a href="home.php">Home</a></li>		
+		<li class="active" style="margin-right:1000px;"><a href="adminhome.php">Home</a></li>		
     </ul>
 </div>
 
@@ -28,7 +28,7 @@ session_start();
 	<div class="contact" style="margin-top: 8px;font-size:28px;margin-left: 600px;">Instagram--
 		<a href="https://www.instagram.com/indiablooddonation/?hl=en"><img src="image/insta.png"style="width: 30px;"></a>
 	</div>
-	<div class="contact" style="margin-top: 8px;font-size:28px;margin-left: 600px;">Blogger--
+	<div class="contact" style="margin-top: 8px;font-size:28px;margin-left: 600px;">Blooger--
 		<a href="https://www.aimsindia.com/blog/be-a-blood-donor/"><img src="image/blog.png"style="width: 30px;"></a>
 	</div>
 	</div>
