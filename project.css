@@ -1,0 +1,113 @@
+*
+{
+	pading: 0;
+	margin: 0;
+}
+body
+{
+	background color:red;
+}
+.menubar
+{
+	background:grey ;
+	text-align: center;
+}
+.menubar ul
+{
+	
+	display: inline-flex;
+	list-style: none;
+	color: white;
+	margin-right:90px ;
+}
+.menubar ul li
+{
+ width: 120px;
+ margin:15px;
+ padding: 15px;
+}
+.menubar ul li a
+{
+	text-decoration: none;
+	color: white;
+}
+.active, .menubar ul li:hover
+{
+	background: #2bab0d;
+	border border-radius: 3px;
+}
+.submenu1
+{   
+	display: none;
+	width: 170px;
+}
+.menubar ul li:hover .submenu1
+{
+	display: block;
+	position: absolute;
+	background:grey;
+	margin-top:15px;
+	margin-left:-15px;
+}
+.menubar ul li:hover .submenu1 ul
+{
+	display: block;
+	margin-right: 40px;
+   
+}
+.menubar ul li:hover .submenu1 ul li
+{
+    width: 100px; 
+ 	  padding: 5px;
+    background:transparent;
+    border-radius:0;
+    text-align:left;
+}
+.menubar ul li:hover .submenu1 ul li a:hover
+{
+	color:#b2ff00;
+}
+.submenu2
+{
+display: none;
+width:200px;
+}
+.hoverme:hover .submenu2
+{ 
+	position: absolute;
+	display: block;
+	margin-top: -40px;
+	margin-left:100px;
+	background:grey;  
+}
+.hoverme:hover .submenu2 ul li a 
+{
+	padding-right: 40px;
+}
+.submenu ul li a
+{
+	padding-right: 40px;
+}
+.footer
+{
+ height: 300px;
+}
+.footer .footer1
+{
+	margin-right:100px;
+	color :white;
+}
+.footer .footer2
+{
+	color: white;
+
+}
+.donar
+{ 
+
+	margin-left: 700px;
+}
+#container div{
+    display:inline-block;
+    width:130px;
+}
